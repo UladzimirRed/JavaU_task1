@@ -33,11 +33,10 @@ public class Action {
     public void sort(List<Integer> list) {
         int sortedList = 0;
         Collections.sort(list);
-        LOGGER.log(Level.INFO, "sorted list is ");
         for (int i = 0; i < list.size(); i++) {
             list.get(i);
         }
-        LOGGER.log(Level.INFO,list.toString());
+        LOGGER.log(Level.INFO,"sorted list is \n" + list.toString());
     }
 }
 
