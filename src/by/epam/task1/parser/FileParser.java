@@ -19,4 +19,3 @@ public class FileParser {
                 .collect(Collectors.toList());
     }
 }
-

@@ -6,7 +6,6 @@ import by.epam.task1.reader.FileReader;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.util.List;
 
 
@@ -28,8 +27,3 @@ public class Main {
         LOGGER.log(Level.INFO,"sum of all numbers is " + action.findSum(list));
     }
 }
-
-
-
-
-
