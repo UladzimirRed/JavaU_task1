@@ -1,6 +1,10 @@
 package by.epam.task1.reader;
 
+import by.epam.task1.main.Main;
 import by.epam.task1.validation.FileValidator;
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.File;
 import java.io.IOException;
@@ -9,6 +13,8 @@ import java.util.List;
 
 
 public class FileReader {
+
+    private static final Logger LOGGER = LogManager.getLogger(Main.class);
 
     public List<String> readFile(String path) {
         File file = new File(path);

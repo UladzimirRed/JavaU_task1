@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccbcc875-f223-4df1-a48f-5ba4c4ce7a53" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array-task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/array-task.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/array-task/by/epam/task1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/array-task/by/epam/task1/action/Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/array-task/by/epam/task1/action/Action.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/epam/task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/epam/task1/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/epam/task1/action/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/epam/task1/action/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/epam/task1/reader/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/epam/task1/reader/FileReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../first-array-app/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../first-array-app/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../first-array-app/.idea/modules.xml" beforeDir="false" />
@@ -29,14 +37,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48842105">
+    <splitter split-orientation="horizontal" split-proportion="0.44126242">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/by/epam/task1/validation/FileValidator.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" selection-start-line="4" selection-end-line="4" />
+                <state relative-caret-position="238">
+                  <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -44,8 +52,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/by/epam/task1/parser/FileParser.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" selection-start-line="7" selection-end-line="7" />
+                <state relative-caret-position="136">
+                  <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -54,10 +62,19 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resources/log4j2.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/by/epam/task1/reader/FileReader.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" selection-start-line="9" selection-end-line="9" />
+                <state relative-caret-position="423">
+                  <caret line="25" selection-start-line="25" selection-end-line="25" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -68,8 +85,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/by/epam/task1/action/Action.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" selection-start-line="5" selection-end-line="5" />
+                <state>
+                  <caret line="12" column="71" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="76" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -82,10 +99,10 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/by/epam/task1/Main.java">
+            <entry file="file://$PROJECT_DIR$/src/by/epam/task1/main/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+                <state relative-caret-position="238">
+                  <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="74" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -110,7 +127,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -124,17 +141,18 @@
         <option value="$PROJECT_DIR$/src/by/epam/Main.java" />
         <option value="$PROJECT_DIR$/src/by/epam/validation/Validate.java" />
         <option value="$PROJECT_DIR$/src/by/epam/reader/FileReader.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/task1/action/Action.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/task1/reader/FileReader.java" />
         <option value="$PROJECT_DIR$/src/by/epam/task1/parser/FileParser.java" />
         <option value="$PROJECT_DIR$/src/by/epam/task1/validation/FileValidator.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/task1/action/Action.java" />
         <option value="$PROJECT_DIR$/src/by/epam/task1/Main.java" />
+        <option value="$PROJECT_DIR$/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/by/epam/task1/reader/FileReader.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="804" />
-    <option name="y" value="316" />
+    <option name="x" value="477" />
+    <option name="y" value="231" />
     <option name="width" value="1022" />
     <option name="height" value="766" />
   </component>
@@ -152,6 +170,11 @@
             <path>
               <item name="array-task" type="b2602c69:ProjectViewProjectNode" />
               <item name="array-task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="array-task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="array-task" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="array-task" type="b2602c69:ProjectViewProjectNode" />
@@ -206,13 +229,25 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548443811274" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548603944245" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my-first-maven-project-attempt-2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3137931" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\IdeaProjects\array-task\src\by\epam\task1\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java\IdeaProjects\array-task\resources" />
       <recent name="D:\Java\IdeaProjects\first-array-app\data" />
       <recent name="D:\Java\IdeaProjects\first-array-app\src\by\Pankratov" />
     </key>
@@ -230,12 +265,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.epam.task1.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.epam.Main" />
       <module name="array-task" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.epam.task1.*" />
+          <option name="PATTERN" value="by.epam.action.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,11 +279,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.epam.Main" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.task1.main.Main" />
       <module name="array-task" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.epam.action.*" />
+          <option name="PATTERN" value="by.epam.task1.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -287,8 +322,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="-3" y="73" width="469" height="700" id="Project" order="0" visible="true" weight="0.21268657" />
+      <window_info content_ui="combo" x="-3" y="73" width="469" height="700" id="Project" order="0" visible="true" weight="0.08795309" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -297,15 +333,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32950193" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4559387" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28831416" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32950193" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3151341" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3151341" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32950193" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32950193" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.20498085" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -354,30 +390,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/file.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/epam/task1/action/Action.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state>
+          <caret line="12" column="71" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/task1/reader/FileReader.java">
+    <entry file="file://$PROJECT_DIR$/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/epam/task1/parser/FileParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -386,23 +422,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/epam/task1/validation/FileValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/file.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/task1/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/by/epam/task1/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        <state relative-caret-position="238">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/task1/reader/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>array-task</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>org.apache.ant:ant-apache-log4j:1.10.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3137931" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

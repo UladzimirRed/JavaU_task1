@@ -1,10 +1,16 @@
 package by.epam.task1.action;
 
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.Collections;
 import java.util.List;
 
 
 public class Action {
+
+    private static final Logger LOGGER = LogManager.getLogger(Action.class);
 
     public int findMax(List<Integer> list) {
         int maxNumber = Collections.max(list);
@@ -27,11 +33,11 @@ public class Action {
     public void sort(List<Integer> list) {
         int sortedList = 0;
         Collections.sort(list);
-        System.out.println("Sorted list is: ");
+        LOGGER.log(Level.INFO, "sorted list is ");
         for (int i = 0; i < list.size(); i++) {
             list.get(i);
         }
-        System.out.println(list.toString());
+        LOGGER.log(Level.INFO,list.toString());
     }
 }
 
