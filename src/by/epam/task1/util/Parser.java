@@ -1,7 +1,7 @@
-package by.epam.task1.parser;
+package by.epam.task1.util;
 
 
-public class FileParser {
+public class Parser {
     public static int[] parse(String line){
         String [] arrayString = line.split(";");
         int [] arrayInt = new int[arrayString.length];
