@@ -1,36 +1,46 @@
 package by.epam.task1.action;
 
-import org.apache.logging.log4j.Level;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-import java.util.Collections;
-import java.util.List;
-
 
 public class Action {
 
-    private static final Logger LOGGER = LogManager.getLogger(Action.class);
+    public int[] sortArray(int[] arrayInt){
+        int n = arrayInt.length;
+        int temp = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 1; j < (n-i); j++) {
+                if (arrayInt[j - 1] > arrayInt[j]) {
+                    temp = arrayInt[j - 1];
+                    arrayInt[j - 1] = arrayInt[j];
+                    arrayInt[j] = temp;
+                }
+            }
+        }
+        return arrayInt;
+    }
+    public static int getMax(int[] arrayInt){
+        int maxValue = arrayInt[0];
+        for(int i=1;i < arrayInt.length;i++){
+            if(arrayInt[i] > maxValue){
+                maxValue = arrayInt[i];
+            }
+        }
+        return maxValue;
+    }
+    public static int getMin(int[] arrayInt){
+        int minValue = arrayInt[0];
+        for(int i=1;i<arrayInt.length;i++){
+            if(arrayInt[i] < minValue){
+                minValue = arrayInt[i];
+            }
+        }
+        return minValue;
+    }
+    public static int getSum(int[] arrayInt){
+        int sum = 0;
+        for (int i : arrayInt){
+            sum += i;
+        }
+        return sum;
+    }
 
-    public int findMax(List<Integer> list) {
-        int maxNumber = Collections.max(list);
-        return maxNumber;
-    }
-    public int findMin(List<Integer> list) {
-        int minNumber = Collections.min(list);
-        return minNumber;
-    }
-    public int findSum(List<Integer> list) {
-        int valueSum = 0;
-        for (int element : list) {
-            valueSum += element;
-        }
-        return valueSum;
-    }
-    public void sort(List<Integer> list) {
-        Collections.sort(list);
-        for (int i = 0; i < list.size(); i++) {
-            list.get(i);
-        }
-        LOGGER.log(Level.INFO,"sorted list is \n" + list.toString());
-    }
 }

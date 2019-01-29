@@ -6,24 +6,23 @@ import by.epam.task1.reader.FileReader;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import java.util.List;
+import java.util.Arrays;
 
 
 public class Main {
 
     private static final Logger LOGGER = LogManager.getLogger(Main.class);
-    private static final String FILEPATH = "data\\file.txt";
+    private static final String FILE_PATH = "data\\file.txt";
 
     public static void main(String[] args) {
-        FileReader reader = new FileReader();
-        List<String> arrStrings = reader.readFile(FILEPATH);
-        FileParser parse = new FileParser();
-        List<Integer> list = parse.parser(arrStrings);
-        LOGGER.log(Level.INFO,"List is \n" + list);
+        String line = FileReader.readFile(FILE_PATH);
+        int[] arrayInt = FileParser.parse(line);
+        LOGGER.log(Level.INFO, "Array of integer is \n" + Arrays.toString(arrayInt));
         Action action = new Action();
-        action.sort(list);
-        LOGGER.log(Level.INFO, "max value of array is " + action.findMax(list));
-        LOGGER.log(Level.INFO,"min value of array is " + action.findMin(list));
-        LOGGER.log(Level.INFO,"sum of all numbers is " + action.findSum(list));
+        action.sortArray(arrayInt);
+        LOGGER.log(Level.INFO, "sorted array is \n" + Arrays.toString(arrayInt));
+        LOGGER.log(Level.INFO, "max value of array is " + action.getMax(arrayInt));
+        LOGGER.log(Level.INFO, "min value of array is " + action.getMin(arrayInt));
+        LOGGER.log(Level.INFO, "sum of all numbers is " + action.getSum(arrayInt));
     }
 }

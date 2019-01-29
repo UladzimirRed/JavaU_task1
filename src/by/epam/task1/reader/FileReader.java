@@ -1,33 +1,43 @@
 package by.epam.task1.reader;
 
+import by.epam.task1.exeption.FileIsNotReadExeption;
 import by.epam.task1.validation.FileValidator;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.util.List;
+import java.util.Scanner;
 
 
 public class FileReader {
 
     private final static  Logger LOGGER = LogManager.getLogger();
 
-    public List<String> readFile(String path) {
-        File file = new File(path);
+    public static String readFile(String pathToFile) {
+        File file = new File(pathToFile);
+        StringBuilder result = new StringBuilder();
         FileValidator fileValidator = new FileValidator();
-        boolean resultValidation;
-        resultValidation = fileValidator.checkFile(file);
-        if (!resultValidation) {
-            LOGGER.log(Level.FATAL, "FATAL ERROR file is incorrect!");
-            throw new RuntimeException("FATAL ERROR: file not found or empty or null" + path);
+
+        boolean isExist;
+        isExist = fileValidator.checkExist(file);
+        if (!isExist) {
+            LOGGER.log(Level.FATAL, "FATAL ERROR: file is incorrect!");
+            throw new RuntimeException("FATAL ERROR: file not found or empty or null" + pathToFile);
         }
         try {
-            return Files.readAllLines(file.toPath());
+            Scanner scanner = new Scanner(file);
+            while (scanner.hasNextLine()) {
+                String sc = scanner.nextLine();
+                if (FileValidator.isValidString(sc)) {
+                    result.append(sc).append(";");
+                }
+            }
+            return result.toString();
         } catch (IOException e) {
-            LOGGER.log(Level.ERROR, "IO Error", e);
+            LOGGER.log(Level.ERROR, "IO ERROR. The file could not be read.");
+            throw new FileIsNotReadExeption("input or output error", e);
+
         }
-        return null;
     }
 }
